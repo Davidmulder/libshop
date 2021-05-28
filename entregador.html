@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="estilo_entregador.css">
+  <title>Libshop - Entregador</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="bggrade">
+      <div class="bgcolorido">
+        <div class="bgbordacel">
+          <div class="toldo">
+            <img src="img/toldo.png" alt="toldo">
+          </div>
+          <div class="conteudo">
+            <img src="img/logo_libshop.png" alt="logo libshop" class="logolibshop">
+            <p class="txt00">
+              <span class="txtbg">SEJA UM</span>
+            </p>
+            <p class="txt01">
+              <span class="txtg txtbg txtcor2">ENTREGADOR-PARCEIRO</span>
+            </p>
+            <img src="img/vantagens_entregador.png" alt="vantagens" class="vantagens">
+            <div class="formulario">
+              <form id="form1" name="form1" method="post" action="add.php">
+                <div class="form-group">
+                  <label for="nome">Nome</label>
+                  <input class="form-control" type="text" name="nome" id="nome"  required/>
+                </div>
+                <div class="form-group">
+                  <label for="cpf">CPF</label>
+                  <input class="form-control" type="text" name="cpf" id="cpf"  required/>
+                </div>
+                <div class="form-group">
+                  <label for="cel">Celular</label>
+                  <input class="form-control" type="text" name="cel" id="cel"  required/>
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input class="form-control" type="text" name="email" id="email"  required/>
+                </div>
+                <div class="form-group">
+                  <label for="tipo">Tipo de Veiculo</label>
+                  <select class="custom-select" name="tipo" id="tipo">
+                    <option selected="selected"></option>
+                    <option value="1">Bicicleta</option>
+                    <option value="2">Moto</option>
+                    <option value="3">Caminhonete</option>
+                    <option value="4">Carro</option>
+                  </select>
+                </div>
+                <p class="form-group">
+                  <input type="submit" name="button" id="button" value="Enviar" class="btn btn-primary" />
+                  <input name="cod" type="hidden" id="cod" value="2" />
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="base"><img src="img/celular_base_entregador.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

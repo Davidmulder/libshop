@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Libshop - Lojista</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bggrade">
+            <div class="bgcolorido">
+                <div class="bgbordacel">
+                    <div class="toldo">
+                        <img src="img/toldo.png" alt="toldo">
+                    </div>
+                    <div class="conteudo">
+                        <div class="areaplaca">
+                            <img src="img/pode_entrar.png" alt="pode entrar" class="placa">
+                        </div>
+                        <img src="img/logo_libshop.png" alt="logo libshop" class="logolibshop">
+                        <p class="txt00">
+                            <span class="txtbg">
+                                O <strong>Libshop</strong> é o <strong>e-commerce</strong> feito para sua marca
+                                alcançar novos públicos e <strong>turbinar as vendas</strong>. Entre, estamos de portas
+                                abertas!
+                            </span>
+                        </p>
+                        <p class="txt01">
+                            <span class="txtbg">VANTAGENS DE FAZER PARTE DO<br></span>
+                            <span class="txtg txtbg"><span class="txtcor2">MAIOR MARKETPLACE</span><br>DO ESTADO</span></span>
+                        </p>
+                        <img src="img/vantagens.png" alt="vantagens" class="vantagens">
+                        <p class="mais">
+                            <span class="tit01">QUER SABER MAIS?</span>
+                            PREENCHA O FORMULÁRIO E<br>
+                            ENTRAREMOS EM CONTATO
+                        </p>
+                        <div class="formulario">
+                            <form id="form1" name="form1" method="post" action="add.php">
+                                <div class="form-group">
+                                    <label for="empresa">Empresa</label>
+                                    <input class="form-control" type="text" placeholder="Sua empresa" name="empresa" id="empresa" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="categoria2">Categoria</label>
+                                    <select class="custom-select" name="categoria" id="categoria2">
+                                        <option selected="selected">---</option>
+                                        <option value="1">ALIMENTOS E BEBIBAS</option>
+                                        <option value="2">ARTESANATO</option>
+                                        <option value="3">ARTIGOS PARA FESTA</option>
+                                        <option value="4">AUTOMOTIVO</option>
+                                        <option value="5">BEBÊS</option>
+                                        <option value="6">BELEZA &amp; PERFUMARIA</option>
+                                        <option value="7">BRINQUEDOS</option>
+                                        <option value="8">CALÇADOS</option>
+                                        <option value="9">CAMA, MESA E BANHO</option>
+                                        <option value="10">CASA &amp; CONTRUÇÃO</option>
+                                        <option value="11">CELULARES E ACESSÓRIOS</option>
+                                        <option value="12">COLCHÕES</option>
+                                        <option value="13">ELETRODOMÉSTICOS</option>
+                                        <option value="14">ELETROPORTÁTEIS</option>
+                                        <option value="15">ESPORTE E LAZER</option>
+                                        <option value="16">FAST FOOD</option>
+                                        <option value="17">FERRAMENTAS</option>
+                                        <option value="18">FITNESS</option>
+                                        <option value="19">GAMES</option>
+                                        <option value="20">INFORMÁTICA</option>
+                                        <option value="21">MATERIAIS DE CONSTRUÇÃO</option>
+                                        <option value="22">MODA FEMININA</option>
+                                        <option value="23">MODA MASCULINA</option>
+                                        <option value="24">MODA INFANTIL</option>
+                                        <option value="25">MÓVEIS &amp; DECORAÇÃO</option>
+                                        <option value="26">PAPELARIA</option>
+                                        <option value="27">PETSHOP</option>
+                                        <option value="28">SAÚDE E CUIDADOS</option>
+                                        <option value="29">TV E VÍDEO</option>
+                                        <option value="30">UTILIDADES DOMÉSTICAS</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="nome">Nome</label>
+                                    <input class="form-control" type="text" name="nome" id="nome"  placeholder="Seu nome" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cel">Celular</label>
+                                    <input class="form-control" type="text" name="cel" id="cel"  placeholder="Seu Celular" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input class="form-control" type="text" name="email" id="email"  placeholder="Seu e-mail" required/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="button" id="button" value="Enviar" class="btn btn-primary" required/>
+                                    <input name="cod" type="hidden" id="cod" value="1" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="base"><img src="img/celular_base.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+*, ul, ol, a, li, img{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 55, 121);
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #24252a;;
+}
+.container{
+    padding: 0px;
+}
+
+.bgbordacel{
+    background-image:url(img/celular_meio.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100%;
+    background-size: contain;
+}
+
+.toldo{
+    width: 100%;
+    text-align: center;
+}
+
+.toldo img{
+    width: 100%;
+    max-width: 1208px;
+}
+
+.areaplaca{
+    width: 100%;
+    display: flow-root;
+}
+
+.logolibshop{
+    width: 70%;
+    max-width: 880px;
+    margin-top: 20px;
+}
+
+.bggrade{
+    background-image: url(img/bg_quadrado.png);
+    background-size: initial;
+}
+
+.bgcolorido{
+    background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgba(189,18,45,0.7) 65%, rgba(0,53,124,0.8) 90%);
+}
+
+.base img{
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.txt00{
+    width: 70%;
+    max-width: 750px;
+    margin: 20px auto;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.txt01{
+    width: 70%;
+    max-width: 750px;
+    margin: 10px auto;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.txtcor2{
+    color: rgb(162, 25, 47);
+}
+
+.txtbg{
+    background-color: rgba(255,255,255,0.7);
+}
+
+.vantagens{
+    width: 70%;
+    max-width: 880px;
+    margin: 20px auto;
+}
+
+.mais{
+    font-size: calc(10px + (14/1300) * 100 * 1vw);
+    font-weight: bold;
+    width: 70%;
+    max-width: 750px;
+    margin: auto;
+}
+
+.tit01{
+    font-size: 1.6em;
+    display: block;
+    margin-top: 10px;
+}
+
+.formulario{
+    width: 70%;
+    max-width: 880px;
+    margin: auto;
+    text-align: left;
+}
+
+.formulario input, .formulario select, .formulario label{
+    width: 100%;
+}
+
+.formulario label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.links li a{
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}
+
+.links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 10px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.5);
+}
+
+@media (max-width: 1299px){
+    .txt01{
+        font-size: 42px;
+    }
+    .txtg{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 991px){
+    .txt01{
+        font-size: 30px;
+    }
+    .txtg{
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 767px){
+    .txt01{
+        font-size: 22px;
+    }
+    .txtg{
+        font-size: 26px;
+    }
+    .base{
+        background-size: 200px;
+    }
+}
+
+@media (max-width: 480px){
+    .txt00{
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .txt01{
+        font-size: 16px;
+    }
+    .txtg{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 350px){
+    .txt00{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .txt01{
+        font-size: 13px;
+    }
+    .txtg{
+        font-size: 19px;
+    }
+}
