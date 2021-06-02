@@ -5,13 +5,24 @@
 //CAMPOS TESTE
 
 
+if(isset($_POST['nome'])){
+    $nome_remetente = $_POST['nome'];
+    $nome=$_POST['nome'];
+}
+if(isset($_POST['destino'])){
+    $email_destino = $_POST['destino'];
+}
+if(isset($_POST['email'])){
+    $email=$_POST['email'];
+}
+if(isset($_POST['instagram'])){
+    $instagram=$_POST['instagram'];
+}
+if(isset($_POST['youtube'])){
+    $youtube=$_POST['youtube'];
+}
 
-$nome_remetente = $_POST['nome'];
-$email_destino = $_POST['destino'];
-$nome=$_POST['nome'];
-$email=$_POST['email'];
-$instagram=$_POST['instagram'];
-$youtube=$_POST['youtube'];
+
 
 
 
@@ -55,10 +66,10 @@ $mail->Subject = utf8_decode("Inscrição Creators"); //Assunto do email
 $conteudo_email="<div  style=\"background-color:#dceaff; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight: bold; padding-top: 20px; padding-left:5px;\">";
 $conteudo_email.="<p>Dados da inscrição<br />";
 $conteudo_email.="  <br /> ";
-$conteudo_email.=" <p>Nome: $nome</p> ";
-$conteudo_email.=" <p>Instagram  $instagram</p> ";
-$conteudo_email.=" <p>E-mail  $email<br /> ";
-$conteudo_email.=" <p>Youtube  $youtube<br /></p> ";
+$conteudo_email.=" <p>$nome</p> ";
+$conteudo_email.=" <p>$instagram</p> ";
+$conteudo_email.=" <p>$email<br /> ";
+$conteudo_email.=" <p>$youtube<br /></p> ";
 $conteudo_email.=" <br><br> </div> ";
 
 
